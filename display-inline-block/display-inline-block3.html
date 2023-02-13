@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        #minhaDiv{
+            text-align: justify;
+        }
+
+        #minhaDiv::after{
+        content: '';
+        width: 100%;
+        display: inline-block;
+        }
+
+        #p1{
+            background-color: red;
+            display: inline-block;
+            width: 15%;
+        }
+
+        #p2{
+            background-color: yellow;
+            display: inline-block;
+            width: 15%; 
+        }
+
+        #p3{
+            background-color: green;
+            display: inline-block;
+            width: 15%; 
+        }
+
+    </style>
+</head>
+<body>
+
+<!-- DISPLAY INLINE-BLOCK é a juncao dos dois acima. lembrando que ganha um comportamento de palavra -->
+
+<div id="minhaDiv">
+
+    <p id="p1"> oi 1 </p>
+
+    <p id="p2"> oi 2</p>
+    
+    <p id="p3"> oi 3 </p>
+    
+</div>
+
+</body>
+</html>
