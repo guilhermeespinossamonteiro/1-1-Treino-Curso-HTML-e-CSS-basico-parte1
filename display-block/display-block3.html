@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #p1{
+            background-color: red;
+            display: block;
+            width: 10%;
+            margin-left: auto; /* direita da tela */
+        }
+
+        #p2{
+            background-color: yellow;
+            display: block;
+            width: 10%; 
+            margin-right: auto; /* esquerda da tela */
+        }
+
+        #p3{
+            background-color: green;
+            display: block;
+            width: 10%; 
+          /*   alinhar no meio */
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+    </style>
+</head>
+<body>
+
+<!--     DISPLAY BLOCK display: block ( por padrao a maioria dos elemento ja tem display block ) - 
+    quando coloco display block ele ocupa a linha toda, entao tenho que definir o width e height,
+    ele nao deixa que tenha um elemento do lado, toda a area/linha é do elemento ( caso queria mover totalmente 
+    para direita, margin-left:auto ), caso eu queira deixar no meio, eu jogo margin-left:auto e margin-right:auto -->
+
+    <p id="p1"> oi 1 </p>
+
+    <p id="p2"> oi 2</p>
+
+    <p id="p3"> oi 3 </p>
+</body>
+</html>
